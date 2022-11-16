@@ -1,0 +1,200 @@
+
+@import url('reset.css');
+@import url('fonts.css');
+
+body{
+    background-color: black;
+}
+
+
+p {
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+span{
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+.banner {
+    height: 605px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px solid lightskyblue ;
+
+}
+
+.banner-content{
+    text-align: center;
+    width: 530px;
+    margin: auto;
+    padding-top: 30px;;
+}
+.banner-content h1{
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+
+.logo{
+    width: 280px;
+    height: 280px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.logo img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+  }
+
+  .banner-content button{
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.21em;
+    border: 3px solid #31A8DD;
+    padding: 20px;
+}
+
+#course-content {
+    height: auto;
+    width: 800px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#course-content h2{
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+.module{
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+    padding: 16px px;
+    width: 550px;
+    height: 51px;
+    background: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+#transform-world{
+    height: 605px;
+    background-image: url(../images/woman-code.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 1px solid lightskyblue ; ;
+    border-bottom: 1px solid lightskyblue ;
+    background-attachment: fixed;
+}
+
+#transform-world p{
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    width: 510px;
+    height: 141px;
+    left: 0px;
+    top: 0px;    
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 200px;
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    height: auto;
+    width: 800px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+#professional-challenges h2 {
+    text-transform: uppercase;
+    text-align: center;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+
+footer {
+    height: 170px;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid lightskyblue ;
+    border-bottom: 1px solid lightskyblue ;
+    margin: auto;
+    padding-top: 50px;
+}
+
+footer a{
+    color: #33A8DB;
+    text-decoration: none;
+}
+
+#van {
+
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    min-height: 100px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}

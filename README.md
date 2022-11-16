@@ -4,6 +4,8 @@ Olá, Bem vindo(a)! Neste desafio, foi possivel construir uma Landing Page com H
 as propriedades básicas da linguagem de estilização, como pocisionamentos, textos, gradientes, trabalhos com imagens, além de trabalhar 
 com as unidades de medidas relativas e absolutas que aprendi ao longo da trilha.
 
+[Clique aqui](https://vanessavillela.github.io/BOOTCAMP-NTTDATA-DIVERSIDADE-DESAFIO-03/) para acessar o resultado final da Landing Page criada a partir do 
+
 Foi disponibilizafo um protótipo do desafio atravez do Figma para se basear e ter o resultado esperado.
 [Link do Figma](https://www.figma.com/file/3PiokoJj9IhGDnNiWAJbz7/DIO---Desafio-01?node-id=2%3A6)
 
